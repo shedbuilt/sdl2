@@ -24,7 +24,6 @@ done
 ./configure --prefix=/usr \
             --enable-alsa \
 	    --disable-pulseaudio \
-	    --disable-video-mir \
 	    --disable-video-x11 \
 	    --disable-video-rpi \
 	    --${SHED_PKG_LOCAL_KMSDRM_OPTION}-video-kmsdrm \
