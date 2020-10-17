@@ -1,10 +1,10 @@
 NAME=sdl2
-VERSION=2.0.9
-REVISION=1
+VERSION=2.0.12
+REVISION=2
 LICENSE=Zlib
-SRC=http://www.libsdl.org/release/SDL2-2.0.9.tar.gz
-SRCMD5=f2ecfba915c54f7200f504d8b48a5dfe
+SRC=https://libsdl.org/release/SDL2-2.0.12.tar.gz
+SRCMD5=783b6f2df8ff02b19bb5ce492b99c8ff
 BUILDDEPS=alsa-lib kmsdrm:libdrm kmsdrm:mesa gles:mesa wayland:wayland-protocols
 INSTALLDEPS=alsa-lib kmsdrm:libdrm kmsdrm:mesa gles:mesa wayland:wayland-protocols
 OPTIONS=(gles) (kmsdrm) (wayland)
-DEFAULTS=kmsdrm
+DEFAULTS=kmsdrm gles
